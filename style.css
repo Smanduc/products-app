@@ -1,0 +1,83 @@
+html, body {
+  background: #00a4eb;
+  height: 100%;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+main {
+  max-width: 800px;
+  margin:auto;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+nav {
+  background:blue;
+  text-align: center;
+  padding: 8px;
+  margin: 5px;
+}
+nav ul li a {
+  color: white;
+  font-weight: 600;
+  padding: 8px;
+}
+nav ul {
+  list-style-type: none;
+}
+
+footer {
+  border-top:solid 4px blue;
+  margin-top: 70px;
+}
+
+tr {
+  background: #004db3;
+}
+
+th td{
+    font-size: 24px;
+  color: white;
+  font-weight: 600;
+}
+
+td {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+input {
+  width: 70%;
+  height: 40px;
+  border-radius: 6px;
+  padding: 8px;
+  font-weight: 500;
+  font-size: 18px;
+  display: block;
+  margin:auto;
+  margin-bottom: 10px;
+}
+button {
+  color: white;
+  background: #00457a;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 9px;
+  cursor: pointer;
+}
+
+.favorite-button {
+  border: solid 4px orange;
+}
+
+.notfavorite-button {
+  background: orange;
+}

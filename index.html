@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <h1>Jurnal alimentar</h1>
+    <nav>
+      <ul>
+        <li>
+          <a href="#">Acasa</a>
+          <a href="#">Lista de produse</a>
+          <a href="#">Adauga produs</a>
+          <a href="#">Produsul favorit</a>
+        </li>
+      </ul>
+    </nav>
+
+  </header>
+  <main>
+    <img src="https://tkfoodsbd.com/wp-content/uploads/2022/06/Happy-Time-product-Mockups-min-1-1.png" width="500">
+
+    <h2>Adauga produs</h2>
+
+    <input type="text" id="title-input" placeholder="titlul produsului">
+    <input type="text" id="category-input" placeholder="categoria produsului">
+    <input type="number" id="calorie-input" placeholder="numarul de calorii">
+    <input type="number" id="price-input" placeholder="pretul produului">
+
+    <button id="create-button">Salveaza produsul </button>
+    
+    <h2>Lista de produse</h2>
+    <h3>Filtreaza</h3>
+
+    <input type="text" id="category-filter-input" placeholder="categoria produsului">
+    <button id="filter-button">Afiseaza produsele</button>
+    <h3>Sorteaza</h3>
+    <button id="price-sort-button">Pret</button>
+    <table>
+      <thead>
+        <tr>
+          <td>Title</td>
+          <td>Category</td>
+          <td>Calories</td>
+          <td>Price</td>
+          <td>Action</td>
+          <td>Favorite</td>
+        </tr>
+      </thead>
+      <tbody id="products-tbody">
+        <tr>
+          <td>Baton</td>
+          <td>Suplimente</td>
+          <td>200</td>
+          <td>25</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>Ai cheltuit urmatoarea suma pe produse: </p>
+    <span id = "total-price-span"></span>
+    <span>RON</span>
+    <p>Ai consumat urmatorul numar de calorii:</p>
+    <span id = "total-calorie-span"></span>
+    <span>cal</span>
+    <p>Titlul produselor favorite este:</p>
+    <span id = "fav-products-span"></span>
+  </main>
+  <footer>
+    <h3>Acest website a fost creat de Stefan</h3>
+  </footer>
+
+
+
+
+
+
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
