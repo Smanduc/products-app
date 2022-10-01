@@ -237,8 +237,6 @@ function getFavoriteProductsTitles() {
   }
   return titles;
 }
-// let titles = getFavoriteProductsTitles
-
 displayProducts()
 
 
